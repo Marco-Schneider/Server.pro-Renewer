@@ -54,8 +54,10 @@ int main()
         iNPUT.mi.dwFlags = MOUSEEVENTF_LEFTUP;
         SendInput(1, &iNPUT, sizeof(iNPUT));
 
-        Sleep(40*60000);
+        Sleep(40*60000); //Notar que o programa aqui entrará em espera, logo, mesmo pressionando Esc o programa não é encerrado
         
     }
+
+    cout << "Programa finalizado\n";
     return 0;
 }
