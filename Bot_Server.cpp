@@ -1,4 +1,8 @@
 //Programa para renovar a duração do servidor de minecraft de modo automático//
+//Observações pertinentes:
+//Incluir uma rotina para encontrar o botão de Renew e o botão de verificação
+//No atual estado, o programa funcionará apenas com um monitor de determinará resolução
+//Repensar uma condição de parada e ou maneira para distanciar no tempo o realizar da rotina
 #define WINVER 0x0500
 #include <windows.h>
 #include <iostream>
